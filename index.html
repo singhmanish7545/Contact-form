@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-100 flex justify-center py-14">
+   <div class="w-96 h-96 bg-slate-50  space-y-2.5 rounded pl-3 font-mono">
+    <h1 class="text-2xl font-bold pl-7 py-1">Contact Us</h1>
+    <div class=" flex justify-center text-sm space-x-1 w-80 pl-10">
+        <div class="">
+            <P class="">First name<span class="text-green-500">*</span></P>
+            <input type="text" id="first name" class="border-2 w-36 rounded">
+            <!-- <label for="first name">First Name*</label> -->
+        </div>
+        <div class="">
+            <p>Last name<span class="text-green-500">*</span></p>
+            <input type="text" id="Lirst name" class="border-2 w-36 rounded">
+            <!-- <label for="Last name">First Name*</label> -->
+        </div>
+    </div>
+    <div class="text-sm pl-9 ">
+        <p>Email Address<span class="text-green-500">*</span></p>
+        <input type="text" class="border-2 w-72 rounded">
+    </div>
+    <div class="space-x-1 flex pl-9">
+        <div class="w-36 border-2 rounded space-x-0.5">
+                <input type="checkbox" nmme="Enquiry" value="Enquiry">
+                <label class="text-sm"> General Enquiry</label>
+        </div>
+        <div class="w-36 border-2 rounded space-x-0.5">
+                <input type="checkbox" nmme="Support Request" value="Enquiry" class="pl-2">
+                <label class="text-sm"> Support Request</label>
+         </div>
+    </div>
+    <div class="pl-9 text-sm">
+        <p>Message<span class="text-green-500">*</span></p>
+        <div class="w-72 h-20 border-2 border-inherit rounded"></div>
+    </div>
+    <div class="text-sm pl-9">
+        <input type="checkbox" nmme="Enquiry" value="Enquiry">
+        <label>I consent to being contacted by the team<span class="text-green-500">*</span></label>
+    </div>
+    <div class="pl-9">
+            <button class="w-72 bg-green-700 pl-9 text-slate-50 rounded">Sumbit</button>
+    </div>
+   </div> 
+</body>
+</html>
